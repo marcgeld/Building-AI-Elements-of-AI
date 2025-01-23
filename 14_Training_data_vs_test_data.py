@@ -26,13 +26,12 @@ def main():
 
     # read in the test data and separate x_test from it
     data_test = np.genfromtxt(StringIO(test_string), skip_header=1)
-    y_test = data_train[:, 5].reshape(1, -1)[0]
+    #y_test = data_train[:, 5].reshape(1, -1)[0]
     x_test = np.delete(data_test, 5, axis=1)
 
     # print out the linear regression coefficients
     print(c)
     # this will print out the predicted prics for the two new cabins in the test data set
     print(x_test @ c)
-
 
 main()

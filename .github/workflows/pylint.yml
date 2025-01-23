@@ -1,7 +1,5 @@
 name: Pylint
-
 on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,3 +19,7 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
+    - name: ruff-action
+      uses: astral-sh/ruff-action@v3.0.1
+      with:
+        args: check
