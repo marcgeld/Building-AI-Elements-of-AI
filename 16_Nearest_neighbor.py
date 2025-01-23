@@ -1,8 +1,9 @@
+from collections import Counter
+
 import numpy as np
 from sklearn.datasets import make_blobs
-from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
-from collections import Counter
+from sklearn.preprocessing import MinMaxScaler
 
 # create random data with two classes
 X, Y = make_blobs(n_samples=16, n_features=2, centers=2, center_box=(-2, 2)) #,random_state=42)

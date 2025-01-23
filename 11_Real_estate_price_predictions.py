@@ -1,9 +1,3 @@
-import math
-import random
-import numpy as np
-import io
-from io import StringIO
-
 # input values for three mökkis: size, size of sauna, distance to water, number of indoor bathrooms,
 # proximity of neighbors
 X = [[66, 5, 15, 2, 500],

@@ -1,5 +1,6 @@
 import math
 import random
+
 import numpy as np
 
 N = 100      # Storlek på landskapet (N x N)

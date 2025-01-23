@@ -1,5 +1,6 @@
-import numpy as np
 from io import StringIO
+
+import numpy as np
 
 train_string = '''
 25 2 50 1 500 127900

@@ -1,10 +1,6 @@
 import math
 import random
-import numpy as np
-import io
-from io import StringIO
-import random
-import numpy as np
+
 
 def accept_prob(S_old, S_new, T):
     if S_new > S_old:

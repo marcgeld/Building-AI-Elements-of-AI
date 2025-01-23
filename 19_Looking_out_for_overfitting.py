@@ -1,7 +1,6 @@
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.datasets import make_moons
 from sklearn.model_selection import train_test_split
-import numpy as np
+from sklearn.neighbors import KNeighborsClassifier
 
 # do not edit this
 # create fake data

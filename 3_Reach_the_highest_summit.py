@@ -1,9 +1,4 @@
 import math
-import random
-import numpy as np
-import io
-from io import StringIO
-import math
 import random             	# just for generating random mountains
 
 # generate random mountains

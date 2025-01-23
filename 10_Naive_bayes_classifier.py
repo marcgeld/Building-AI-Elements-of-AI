@@ -1,8 +1,3 @@
-import math
-import random
-import numpy as np
-import io
-from io import StringIO
 import numpy as np
 
 p1 = [1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6, 1 / 6]  # normal

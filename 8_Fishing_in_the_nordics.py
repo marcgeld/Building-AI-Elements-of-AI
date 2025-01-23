@@ -1,8 +1,4 @@
-import math
-import random
 import numpy as np
-import io
-from io import StringIO
 
 countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
 populations = [5615000, 5439000, 324000, 5080000, 9609000]

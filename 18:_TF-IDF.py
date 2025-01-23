@@ -1,4 +1,5 @@
 import math
+
 import numpy as np
 
 text = '''Humpty Dumpty sat on a wall

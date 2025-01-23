@@ -1,8 +1,3 @@
-import math
-import random
-import numpy as np
-import io
-from io import StringIO
 def bot8(pbot, p8_bot, p8_human):
     pbot_8 = p8_bot * pbot
     pbot_8 = pbot_8 / (p8_bot * pbot + p8_human * (1 - pbot))
